@@ -1,16 +1,16 @@
 {
   "manifest_version": 3,
   "name": "ProdGuard",
-  "version": "1.0",
-  "description": "Warns users on production websites by displaying a red border and a caution message.",
+  "version": "1.1",
+  "description": "Warns users on production websites by displaying customizable warnings.",
   "permissions": ["storage", "activeTab", "scripting"],
   "host_permissions": ["<all_urls>"],
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
-      "16": "icon16.png",
-      "48": "icon48.png",
-      "128": "icon128.png"
+      "16": "icon16.jpeg",
+      "48": "icon48.jpeg",
+      "128": "icon128.jpeg"
     }
   },
   "background": {

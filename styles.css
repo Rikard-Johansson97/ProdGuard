@@ -1,3 +1,4 @@
+/* Popup Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 10px;
@@ -14,11 +15,27 @@ body {
   
   input {
     margin-right: 0.5rem;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
   }
   
   button {
-    margin-left: 0.5rem;
     padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button#addDomain {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  button#saveSettings {
+    background-color: #007bff;
+    color: white;
+    margin-top: 10px;
   }
   
   ul {
@@ -38,5 +55,21 @@ body {
     color: white;
     border: none;
     cursor: pointer;
+  }
+  
+  /* Warning Box Styles */
+  #prodguard-warning-box {
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
   }
   
